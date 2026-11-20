@@ -1,0 +1,444 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meda Ashwini | Portfolio</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="nav-container">
+
+        <a href="#home" class="logo">Ashwini<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+            ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact" class="nav-contact">Contact Me ↗</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-container">
+
+        <div class="hero-content reveal">
+
+            <p class="eyebrow">
+                <span class="status-dot"></span>
+                WELCOME TO MY PORTFOLIO
+            </p>
+
+            <h1>
+                Hello, I'm <span class="gradient-text">Meda Ashwini.</span><br>
+                A Student &amp; <span class="outline-text">Developer</span>
+            </h1>
+
+            <p class="hero-description">
+                I love exploring technology, building creative projects
+                and turning ideas into meaningful digital experiences.
+                Currently learning, growing and creating something new.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    Explore My Work ↗
+                </a>
+
+                <a href="#contact" class="btn btn-secondary">
+                    Get In Touch
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div>
+                    <h3>5+</h3>
+                    <p>Technologies</p>
+                </div>
+
+                <div class="stat-divider"></div>
+
+                <div>
+                    <h3>3+</h3>
+                    <p>Projects</p>
+                </div>
+
+                <div class="stat-divider"></div>
+
+                <div>
+                    <h3>∞</h3>
+                    <p>Ideas to Build</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hero-visual reveal">
+            <div class="orb orb-one"></div>
+            <div class="orb orb-two"></div>
+
+            <div class="profile-frame">
+                <img
+                    src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85"
+                    alt="Profile portrait">
+            </div>
+
+            <div class="floating-card card-top">
+                <span class="floating-icon">✦</span>
+                <div>
+                    <strong>Creative Mind</strong>
+                    <small>Always learning</small>
+                </div>
+            </div>
+
+            <div class="floating-card card-bottom">
+                <span class="floating-icon">💻</span>
+                <div>
+                    <strong>Developer</strong>
+                    <small>Building the future</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <a href="#about" class="scroll-indicator">
+        <span class="scroll-line"></span>
+        Scroll to explore
+    </a>
+</section>
+
+<!-- About Section -->
+<section class="section" id="about">
+    <div class="section-container">
+
+        <div class="section-heading reveal">
+            <p class="eyebrow">01 — WHO I AM</p>
+            <h2>A little bit <span class="gradient-text">about me.</span></h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text reveal">
+                <h3>Curious by nature.<br>Creative by passion.</h3>
+
+                <p>
+                    Hi, I'm Meda Ashwini, a student interested in
+                    technology, software development and creative
+                    problem-solving. I enjoy learning new tools,
+                    experimenting with ideas and creating projects
+                    that make everyday tasks easier.
+                </p>
+
+                <p>
+                    My journey is just beginning. Every project I build
+                    helps me learn something new, improve my skills
+                    and become more confident as a developer.
+                </p>
+
+                <a href="#contact" class="text-link">
+                    Let's connect <span>↗</span>
+                </a>
+            </div>
+
+            <div class="about-cards">
+
+                <div class="info-card">
+                    <span class="info-icon">🎓</span>
+                    <h4>Education</h4>
+                    <p>College Student</p>
+                </div>
+
+                <div class="info-card">
+                    <span class="info-icon">💡</span>
+                    <h4>Interests</h4>
+                    <p>Technology & Creativity</p>
+                </div>
+
+                <div class="info-card">
+                    <span class="info-icon">🌱</span>
+                    <h4>Currently Learning</h4>
+                    <p>Python & Web Development</p>
+                </div>
+
+                <div class="info-card">
+                    <span class="info-icon">🎯</span>
+                    <h4>Goal</h4>
+                    <p>Build useful digital products</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section class="section section-alt" id="skills">
+    <div class="section-container">
+
+        <div class="section-heading reveal">
+            <p class="eyebrow">02 — WHAT I KNOW</p>
+            <h2>My <span class="gradient-text">skills & tools.</span></h2>
+            <p class="section-subtitle">
+                Technologies I'm learning and using to bring ideas to life.
+            </p>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+                <div class="skill-card-top">
+                    <span class="skill-icon html-icon">5</span>
+                    <span class="skill-label">01</span>
+                </div>
+                <h3>HTML & CSS</h3>
+                <p>Building structured, styled and responsive web pages.</p>
+                <div class="skill-track"><span style="width:80%"></span></div>
+                <small>Frontend Development</small>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-card-top">
+                    <span class="skill-icon js-icon">JS</span>
+                    <span class="skill-label">02</span>
+                </div>
+                <h3>JavaScript</h3>
+                <p>Creating interactive experiences and dynamic interfaces.</p>
+                <div class="skill-track"><span style="width:60%"></span></div>
+                <small>Web Interactivity</small>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-card-top">
+                    <span class="skill-icon python-icon">Py</span>
+                    <span class="skill-label">03</span>
+                </div>
+                <h3>Python</h3>
+                <p>Learning programming, logic and practical problem-solving.</p>
+                <div class="skill-track"><span style="width:75%"></span></div>
+                <small>Programming</small>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-card-top">
+                    <span class="skill-icon django-icon">Dj</span>
+                    <span class="skill-label">04</span>
+                </div>
+                <h3>Django</h3>
+                <p>Developing web applications using Python and Django.</p>
+                <div class="skill-track"><span style="width:45%"></span></div>
+                <small>Web Framework</small>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-card-top">
+                    <span class="skill-icon git-icon">⌘</span>
+                    <span class="skill-label">05</span>
+                </div>
+                <h3>Git & GitHub</h3>
+                <p>Managing project versions and sharing my work.</p>
+                <div class="skill-track"><span style="width:55%"></span></div>
+                <small>Version Control</small>
+            </div>
+
+            <div class="skill-card reveal">
+                <div class="skill-card-top">
+                    <span class="skill-icon database-icon">DB</span>
+                    <span class="skill-label">06</span>
+                </div>
+                <h3>SQL</h3>
+                <p>Understanding data, queries and database fundamentals.</p>
+                <div class="skill-track"><span style="width:40%"></span></div>
+                <small>Database Fundamentals</small>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="section" id="projects">
+    <div class="section-container">
+
+        <div class="section-heading reveal">
+            <p class="eyebrow">03 — WHAT I'VE BUILT</p>
+            <h2>Featured <span class="gradient-text">projects.</span></h2>
+            <p class="section-subtitle">
+                Some ideas, experiments and projects from my learning journey.
+            </p>
+        </div>
+
+        <div class="projects-grid">
+
+            <article class="project-card reveal">
+                <div class="project-image project-one">
+                    <div class="project-image-label">01 / WEB APPLICATION</div>
+                    <div class="project-visual">✧</div>
+                </div>
+
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>HTML/CSS</span>
+                    </div>
+                    <h3>Personal Profile Website</h3>
+                    <p>A personal portfolio website to showcase my skills, projects, interests and learning journey.</p>
+                    <a href="#contact" class="project-link">View Project <span>↗</span></a>
+                </div>
+            </article>
+
+            <article class="project-card reveal">
+                <div class="project-image project-two">
+                    <div class="project-image-label">02 / MACHINE LEARNING</div>
+                    <div class="project-visual">⌁</div>
+                </div>
+
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                    </div>
+                    <h3>Readmission Prediction</h3>
+                    <p>A student project exploring machine learning to estimate hospital readmission risk and support follow-up care.</p>
+                    <a href="#contact" class="project-link">View Project <span>↗</span></a>
+                </div>
+            </article>
+
+            <article class="project-card reveal">
+                <div class="project-image project-three">
+                    <div class="project-image-label">03 / FRONTEND DESIGN</div>
+                    <div class="project-visual">✳</div>
+                </div>
+
+                <div class="project-content">
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <h3>Travel Guide Website</h3>
+                    <p>A travel website exploring destinations, tourist attractions, culture, food and travel packages.</p>
+                    <a href="#contact" class="project-link">View Project <span>↗</span></a>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section class="section section-alt" id="education">
+    <div class="section-container">
+
+        <div class="section-heading reveal">
+            <p class="eyebrow">04 — MY JOURNEY</p>
+            <h2>Education & <span class="gradient-text">learning.</span></h2>
+        </div>
+
+        <div class="timeline reveal">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">CURRENT</div>
+                <h3>Undergraduate Degree</h3>
+                <p>College / University Name</p>
+                <p class="timeline-description">
+                    Learning computer science, programming, software
+                    engineering and exploring real-world technology.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">SKILL DEVELOPMENT</div>
+                <h3>Self Learning & Projects</h3>
+                <p>Independent Learning</p>
+                <p class="timeline-description">
+                    Practicing Python, Django, web development, GitHub
+                    and building projects to improve practical knowledge.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="section" id="contact">
+    <div class="section-container">
+
+        <div class="contact-box reveal">
+            <p class="eyebrow">05 — LET'S CONNECT</p>
+
+            <h2>Have an idea?<br>
+                <span class="gradient-text">Let's make it happen.</span>
+            </h2>
+
+            <p class="contact-description">
+                I'm always interested in learning, collaborating,
+                exploring new ideas and connecting with people.
+            </p>
+
+            <form id="contactForm" class="contact-form">
+                <div class="form-row">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+
+                <textarea id="message" placeholder="Tell me something..." required></textarea>
+
+                <button type="submit" class="btn btn-primary">
+                    Send Message ↗
+                </button>
+
+                <p id="formResult"></p>
+            </form>
+
+            <div class="social-links">
+                <a href="https://github.com/priyasneha1426-prog" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                <a href="mailto:priyasneha1426@gmail.com">Email ↗</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <a href="#home" class="logo">Ashwini<span>.</span></a>
+        <p>Designed & built with curiosity.</p>
+        <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 Meda Ashwini. All rights reserved.
+    </div>
+</footer>
+
+<script src="{% static 'js/script.js' %}"></script>
+
+</body>
+</html>
